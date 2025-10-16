@@ -52,5 +52,7 @@ application on expiry. you can either schedule it over a cron or you can make it
 
 the scripts are
 
-certificateManager.sh
-certificateManager.bat
+certificatemanager.sh
+certificatemanager.bat
+
+use these scripts to trigger the application. Please verify and read the scripts carefully . Understand and modify the threshold and paths accordingly
