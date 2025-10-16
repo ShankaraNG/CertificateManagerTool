@@ -381,3 +381,43 @@ data
 16 October 2025 16:21:41,966 INFO [Certificate Manager] 200 Please find the required files in the following path E:\\PythonCertificates\\CertificateManagerTool\\CertificateManagerTool\\CertificateManager\\files\\
 16 October 2025 16:21:41,967 INFO [Certificate Manager] 200 Shutting down the application
 16 October 2025 16:21:41,968 INFO [Certificate Manager] 200 Application Shut down has been completed
+
+############################################################################################################
+##                                 Certificate Manager                                                    ##
+##                                                                                                        ##
+## This application is developed by Shankara N G                                                          ##
+## This Application is to automate the process of certificate renewal and maintainance                    ##
+## Generate both CSR and the key pair                                                                     ##
+## Create a certificate based on the users requirement                                                    ##
+## Automatically renew it and maintain it                                                                 ##
+## Create keystore if necessary                                                                           ##
+## Contact Shankara for further details on how to set up and run it                                       ##
+############################################################################################################
+
+16 October 2025 16:29:26,824 INFO [Certificate Manager] 200 Starting the Certificate manager application
+16 October 2025 16:29:26,826 INFO [Certificate Manager] 200 Proceeding to generate CSR and Key
+16 October 2025 16:29:26,827 INFO [Certificate Manager] 200 Generating the Private Key
+16 October 2025 16:29:26,866 INFO [Certificate Manager] 200 Successfully generated the private Key
+16 October 2025 16:29:26,867 INFO [Certificate Manager] 200 Creating the config file to generate CSR without SAN
+16 October 2025 16:29:26,868 INFO [Certificate Manager] 200 Config file has been created successfully
+16 October 2025 16:29:26,868 INFO [Certificate Manager] 200 Generating CSR
+16 October 2025 16:29:27,069 INFO [Certificate Manager] 200 CSR generated and saved to E:\\PythonCertificates\\CertificateManagerTool\\CertificateManagerTool\\CertificateManager\\files\\shankar.csr
+16 October 2025 16:29:27,071 INFO [Certificate Manager] 200 Config file has been removed
+16 October 2025 16:29:27,073 INFO [Certificate Manager] 200 CSR and Key generation successfull
+16 October 2025 16:29:27,074 INFO [Certificate Manager] 200 Proceeding to generate the certificate
+16 October 2025 16:29:27,079 INFO [Certificate Manager] 200 Proceeding to create a self signed certificate
+16 October 2025 16:29:27,080 INFO [Certificate Manager] 200 Creating a self signed certificate
+16 October 2025 16:29:27,121 INFO [Certificate Manager] 200 CSR Subject: <Name(C=US,ST=Texas,L=Austin,O=Google,CN=Google.austin.com)>
+16 October 2025 16:29:27,128 INFO [Certificate Manager] 200 Self-signed certificate generated successfully.
+16 October 2025 16:29:27,129 INFO [Certificate Manager] 200 Certificate Generated Successfully
+16 October 2025 16:29:27,130 INFO [Certificate Manager] 200 Proceeding to either Generate the Keystore or converting the certificate to required format
+16 October 2025 16:29:27,131 INFO [Certificate Manager] 200 Creating a keystore from the given Self signed certificate
+16 October 2025 16:29:27,202 INFO [Certificate Manager] 200 Keystore created successfully
+16 October 2025 16:29:27,203 INFO [Certificate Manager] 200 Converting the Keystore to JKS format
+16 October 2025 16:29:37,029 INFO [Certificate Manager] 200 Keystore E:\\PythonCertificates\\CertificateManagerTool\\CertificateManagerTool\\CertificateManager\\files\\shankar.p12 converted to JKS successfully.
+16 October 2025 16:29:37,030 INFO [Certificate Manager] 200 Keystore Created in the JKS format
+16 October 2025 16:29:37,032 INFO [Certificate Manager] 200 Successfully completed the process to either Generate the Keystore or converting the certificate to required format
+16 October 2025 16:29:37,033 INFO [Certificate Manager] 200 Certificate Manager has been ran successfully
+16 October 2025 16:29:37,035 INFO [Certificate Manager] 200 Please find the required files in the following path E:\\PythonCertificates\\CertificateManagerTool\\CertificateManagerTool\\CertificateManager\\files\\
+16 October 2025 16:29:37,037 INFO [Certificate Manager] 200 Shutting down the application
+16 October 2025 16:29:37,038 INFO [Certificate Manager] 200 Application Shut down has been completed
