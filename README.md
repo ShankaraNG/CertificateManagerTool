@@ -1,5 +1,5 @@
 #                                 Certificate Manager                                                    
-                                                                                                        ##
+
 This application is developed by Shankara N G           
 This Application is to automate the process of certificate renewal and maintainance
 Generate both CSR and the key pair
