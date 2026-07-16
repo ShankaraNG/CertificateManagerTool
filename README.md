@@ -1,26 +1,26 @@
 #                                 Certificate Manager                                                    
 
-# 🔐 Certificate Manager Tool
+# Certificate Manager Tool
 
 A Python-based automation tool for end-to-end SSL/TLS certificate lifecycle management — from generation to renewal and maintenance.
 
 ---
 
-## 📖 Overview
+## Overview
 
 The Certificate Manager Tool automates the full certificate management process so you never miss an expiry. It handles:
 
-- 🔑 Generating CSR (Certificate Signing Request) and key pairs
-- 📜 Creating certificates based on user requirements
-- 🔄 Automatically renewing certificates before expiry
-- 🗄️ Creating and managing keystores when necessary
-- 🔔 Triggering renewal automatically via scheduled scripts
+- Generating CSR (Certificate Signing Request) and key pairs
+- Creating certificates based on user requirements
+- Automatically renewing certificates before expiry
+- Creating and managing keystores when necessary
+- Triggering renewal automatically via scheduled scripts
 
 For setup details, configuration help, or any queries — **contact Shankar N G**.
 
 ---
 
-## ⚙️ Prerequisites
+## Prerequisites
 
 - **Python 3.13.7** is the version this application was built and tested with.
 - If you are using a **different version of Python**, remove the version-specific suffixes present in the code where applicable.
@@ -28,9 +28,9 @@ For setup details, configuration help, or any queries — **contact Shankar N G*
 
 ---
 
-## 🚀 Installation & Setup
+## Installation & Setup
 
-### 🪟 Windows Server
+### Windows Server
 
 ```powershell
 cd E:\PythonCertificates\CertificateManagerTool
@@ -64,7 +64,7 @@ python app.pyz
 
 ---
 
-### 🐧 Linux Server
+### Linux Server
 
 ```bash
 cd ~/PythonCertificates/CertificateManagerTool
@@ -96,7 +96,7 @@ python app.pyz
 
 ---
 
-### 💻 Local Machine (VS Code)
+### Local Machine (VS Code)
 
 ```bash
 cd ~/PythonCertificates/CertificateManagerTool
@@ -112,7 +112,7 @@ Run or debug directly through VS Code after activating the virtual environment.
 
 ---
 
-## 🤖 Automation Scripts
+## Automation Scripts
 
 Automation scripts are included to **automatically trigger the application** when a certificate is nearing expiry. These can be scheduled to run periodically.
 
@@ -142,11 +142,11 @@ This runs the script every day at 8:00 AM.
 3. Set the trigger (e.g. daily)
 4. Set the action to run `certificatemanager.bat`
 
-> ⚠️ **Important:** Before running the scripts, read them carefully. Verify and update the **certificate threshold days** and **application paths** to match your environment.
+> **Important:** Before running the scripts, read them carefully. Verify and update the **certificate threshold days** and **application paths** to match your environment.
 
 ---
 
-## 👤 Author
+##  Author
 
 **Shankar N G**
 
